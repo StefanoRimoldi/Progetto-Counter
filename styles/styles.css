@@ -1,0 +1,377 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, sans-serif;
+    margin: 0;
+    background-color: #1d232a;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #191e24;
+    border-bottom: 1px solid white;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .custom-icon-button, #toggleNightMode {
+    background-color: transparent;
+    align-items: center;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+    border: none;
+    display: flex;
+  }
+  /* titolo header homepage */
+  #title-header {
+    align-items: center;
+    padding-bottom: 5px;
+  }
+  
+  /* button togglenightmode */
+  #toggleIcon {
+    background-color: transparent;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: none;
+    color: black;
+  }
+  
+  /* button pagina OverView */
+  .img {
+    stroke: white;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+  }
+  #counterSection,
+  .add-counter {
+    padding: 0 15px 0 15px;
+  }
+  
+  /* sezione titolo Counter */
+  .counter-title {
+    height: 74px;
+    width: 720px;
+    max-width: 100%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-size: 25px;
+    color: white;
+    flex: 1;
+    margin-left: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .title:hover {
+    white-space: normal;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #1d232a;
+  }
+  
+  /* button-top counter */
+  #addValueButton,
+  #resetButton,
+  #deleteButton {
+    height: 30px;
+    justify-content: center;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: transparent;
+    box-sizing: border-box;
+  }
+  
+  #titleInput {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* sezione centrale Counter */
+  .center-box {
+    max-width: 100%;
+    width: 720px;
+    height: 240px;
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 24px;
+    display: flex;
+  }
+  
+  /* numero centrale Counter */
+  #counter {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 128px;
+    font-weight: 600;
+  }
+  
+  /* sezione button Counter Increment e Decrement*/
+  .button-base {
+    max-width: 100%;
+    border: none;
+    height: 75px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  #incrementButton {
+    min-height: 75px;
+    min-width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    border: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+    font-size: 30px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #decrementButton {
+    min-height: 75px;
+    min-width: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 360px;
+    border: 1px solid white;
+    border-bottom-right-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /*Stili Button */
+  #incrementButton:hover,
+  #decrementButton:hover,
+  #addValueButton:hover,
+  #resetButton:hover,
+  #addCounterButton:hover,
+  #deleteButton:hover {
+    background-color: white;
+    color: #1d232a;
+  }
+  
+  #incrementButton,
+  #decrementButton,
+  #addValueButton,
+  #resetButton,
+  #addCounterButton,
+  #deleteButton {
+    background-color: transparent;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+  
+    /* Stile per quando è attivo e cliccato */
+    &:active {
+      background-color: white;
+      color: #1d232a;
+    }
+  }
+
+  .button-add {
+    display: flex;
+    height: 48px;
+    max-width: 100%;
+    width: 720px;
+    border: 1px solid white;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+  }
+  
+  .hide-button {
+    display: none;
+  }
+  
+  #newCounterSection {
+    padding: 10px 15px;
+  }
+  
+  footer {
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 30px 0;
+    background-color: #191e24;
+    margin-top: auto;
+    color: white;
+  }
+  
+  
+  /* breakpoints */
+  @media only screen and (max-width: 438px) {
+  
+    #resetButton {
+      font-size: 0;
+      margin-left: 0px;
+    }
+  
+    #resetButton::before {
+      content: url('https://api.iconify.design/system-uicons/reset.svg');
+      width: 4%; 
+      height: 4%; 
+      filter: invert(100%);
+    }
+  
+    #addValueButton {
+      margin-right: 0px;
+      margin-right: 10px;
+    }
+  
+    #deleteButton {
+      margin-left: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 470px) {
+    #deleteButton {
+      font-size: 0px;
+    }
+  
+    #deleteButton::before {
+      content: url('https://api.iconify.design/dashicons/trash.svg');
+      width: 4%;
+      height: 4%; 
+      filter: invert(100%);
+    }
+  }
+  
+  @media only screen and (max-width: 370px) {
+    #deleteButton {
+      font-size: 0px;
+      margin-right: 10px;
+    }
+  
+    #deleteButton::before {
+      content: url('https://api.iconify.design/dashicons/trash.svg');
+      width: 4%;
+      height: 4%; 
+      filter: invert(100%);
+    }
+  
+    .title {
+      font-size: 1.5em; 
+      color: white;
+      flex: 1;
+      margin-left: 1em;
+      margin-right: auto;
+    }
+
+  
+    #deleteButton {
+      margin-right: 10px;
+      margin-left: 0px;
+      font-size: 0;
+    }
+  
+    #addValueButton,
+    #resetButton {
+      font-size: 0;
+      margin-right: 10px;
+      margin-left: 0px;
+    }
+  
+    #addValueButton {
+      margin-left: 10px;
+    }
+  
+    #resetButton::before {
+      content: url('https://api.iconify.design/system-uicons/reset.svg');
+      width: 4%; 
+      height: 4%; 
+      filter: invert(100%);
+    }
+  
+    #addValueButton::before {
+      content: url('https://api.iconify.design/ant-design/field-number-outlined.svg');
+      width: 4%; 
+      height: 4%; 
+      filter: invert(100%);
+    }
+  }
+  
+  @media only screen and (max-width: 330px) {
+    .title, .button-add {
+      font-size: 1.0em;
+  
+    }
+  
+    #title-header {
+      font-size: 1.20em;
+    }
+  
+    .img, #toggleIcon {
+      height: 20px;
+      width: 20px;
+    }
+  }
+  
+  /* ToggleMode */
+  .night-mode {
+    filter: invert(100%);
+    background-color: white !important;
+  }
+  
+  #toggleNightMode {
+    background-color: transparent;
+    border: none;
+  }
+  
+  
+  
+  
