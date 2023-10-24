@@ -56,7 +56,7 @@ Ho utilizzato "!important" per assicurarmi che questa regola prevalga sugli altr
 
 ## Link progetto:
 - Live Demo: https://counterstart2impact.netlify.app/
-- Repo GitHub: 
+- Repo GitHub: https://github.com/StefanoRimoldi/Progetto-Counter.git
 
 ## Licenza
 Soggetto ai termini della licenza MIT. Consulta LICENSE.txt per ulteriori informazioni.
