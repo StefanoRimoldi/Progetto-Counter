@@ -31,6 +31,9 @@ Questo codice JavaScript è stato sviluppato per creare un'applicazione web inte
 
 Questo codice JavaScript può essere utilizzato come base per la creazione di un'applicazione web di gestione dei contatori e offre la flessibilità di gestire e monitorare contemporaneamente diversi contatori.
 
+![gifcounter](https://ibb.co/BfQDDT6)
+
+
 ### toggle.js
 
 toggle.js gestisce la funzionalità aggiuntiva di cambio tema all'applicazione web.
