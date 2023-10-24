@@ -31,7 +31,7 @@ Questo codice JavaScript è stato sviluppato per creare un'applicazione web inte
 
 Questo codice JavaScript può essere utilizzato come base per la creazione di un'applicazione web di gestione dei contatori e offre la flessibilità di gestire e monitorare contemporaneamente diversi contatori.
 
-![gifcounter](https://ibb.co/BfQDDT6)
+<a href="https://ibb.co/K5Cx2G5"><img src="https://i.ibb.co/NFw293F/Counter.gif" alt="Counter" border="0" width="139px" height="246px"></a>
 
 
 ### toggle.js
@@ -41,6 +41,8 @@ Quando l'utente clicca sull'icona del sole o della luna, a cui è associato l'ID
 Ad ogni click, il bottone cambia l'icona per rappresentare la modalità del tema attualmente in uso. Se compare l'icona del sole significa che è attivo il tema scuro, se invece compare la luna è attivo il tema chiaro.
 L'effetto che ho ottenuto con il CSS è quello di invertire i colori del contenuto utilizzando il filtro "invert" al 100% e con “background-color: white !important” per forzare il cambio di sfondo, dal colore originario al bianco. 
 Ho utilizzato "!important" per assicurarmi che questa regola prevalga sugli altri CSS esistenti. 
+
+<a href="https://ibb.co/7v1ZpWf"><img src="https://i.ibb.co/JnsGp71/togglemode.gif" alt="togglemode" border="0" width="139px" height="246px"></a>
 
 
 
@@ -53,12 +55,12 @@ Ho utilizzato "!important" per assicurarmi che questa regola prevalga sugli altr
 - Visual Studio Code
 
 ## Link progetto:
+- Live Demo: https://counterstart2impact.netlify.app/
+- Repo GitHub: 
 
 ## Licenza
 Soggetto ai termini della licenza MIT. Consulta LICENSE.txt per ulteriori informazioni.
 
 ## Contatti
-
-Link Repo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
