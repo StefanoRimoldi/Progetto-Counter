@@ -1,10 +1,15 @@
 # Progetto Javascript Basic - Counter
 
-## Descrizione progetto
+### Sommario
+
+- [Descrizione progetto](#Descrizione progetto)
+
+### Descrizione progetto
+## index.js
 
 Questo codice JavaScript è stato sviluppato per creare un'applicazione web interattiva che gestisce un contatore principale e consente agli utenti di aggiungere dinamicamente contatori aggiuntivi. L'applicazione fornisce una serie di funzionalità per ciascun contatore, tra cui incremento, decremento, reimpostazione e aggiunta di valori personalizzati. Di seguito sono riportate le principali caratteristiche:
 
-- **Contatore Principale:** L'applicazione inizia con un contatore principale che può essere incrementato, decrementato, reimpostato e aggiornato con valori personalizzati.
+- **Contatore Principale:** Nella homepage, nel momento in cui si accede al sito, compare il contatore principale che può essere incrementato, decrementato, reimpostato e aggiornato con valori personalizzati.
 
 - **Contatori Personalizzati:** Gli utenti hanno la flessibilità di aggiungere più contatori personalizzati, ciascuno con il proprio titolo. Questi contatori personalizzati sono completamente funzionali e includono lo stesso set di funzionalità del contatore principale.
 
@@ -16,11 +21,14 @@ Questo codice JavaScript è stato sviluppato per creare un'applicazione web inte
 
 Questo codice JavaScript può essere utilizzato come base per la creazione di un'applicazione web di gestione dei contatori e offre la flessibilità di gestire e monitorare contemporaneamente diversi contatori.
 
-## Linguaggi utilizzati:
+### Linguaggi utilizzati:
 - HTML
 - CSS
 - JAVASCRIPT
 
 ### Realizzato con:
-
 - Visual Studio Code
+
+### Contatti
+
+Link Repo 
