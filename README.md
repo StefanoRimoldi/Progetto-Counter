@@ -1,4 +1,8 @@
 # Progetto Javascript Basic - Counter
+<a name="readme-top"></a>
+## Introduzione
+Il seguente progetto rappresenta la conclusione del corso Start2Impact relativo a Javascript Basic. Il suo obiettivo principale consiste nella creazione di un'applicazione web interattiva dotata di un counter, progettato per il conteggio di oggetti o persone tramite due pulsanti +/-, resi funzionali attraverso Javascript. 
+Tuttavia, il mio impegno in questo progetto non si è fermato ai requisiti minimi. Ho esteso l'applicazione con una serie di funzionalità aggiuntive, tra cui la possibilità di aggiungere nuovi counter, modificare i titoli di ciascun contatore, cancellarli quando necessario e aggiungere pulsanti per reimpostare e aggiungere valore ai contatori oltre che la possibilità di cambiare tema di visualizzazione della pagina. Ho prestato particolare attenzione alla parte estetica del sito web adottando uno stile pulito e minimale.
 
 ## Sommario
 
@@ -8,6 +12,7 @@
 - [Linguaggi utilizzati](#linguaggi-utilizzati)
 - [Link progetto](#link-progetto)
 - [Licenza](#licenza)
+- [Contatti](#contatti)
 
 ## Descrizione progetto
 ### index.js
@@ -28,6 +33,12 @@ Questo codice JavaScript può essere utilizzato come base per la creazione di un
 
 ### toggle.js
 
+toggle.js gestisce la funzionalità aggiuntiva di cambio tema all'applicazione web.
+Quando l'utente clicca sull'icona del sole o della luna, a cui è associato l'ID "toggleNightMode", il codice aggiunge o rimuove la classe CSS "night-mode" del body dell'applicazione, provocando un cambio del tema dalla modalità scura alla modalità chiara, o viceversa.
+Ad ogni click, il bottone cambia l'icona per rappresentare la modalità del tema attualmente in uso. Se compare l'icona del sole significa che è attivo il tema scuro, se invece compare la luna è attivo il tema chiaro.
+L'effetto che ho ottenuto con il CSS è quello di invertire i colori del contenuto utilizzando il filtro "invert" al 100% e con “background-color: white !important” per forzare il cambio di sfondo, dal colore originario al bianco. 
+Ho utilizzato "!important" per assicurarmi che questa regola prevalga sugli altri CSS esistenti. 
+
 
 
 ## Linguaggi utilizzati:
@@ -41,10 +52,10 @@ Questo codice JavaScript può essere utilizzato come base per la creazione di un
 ## Link progetto:
 
 ## Licenza
-Consulta LICENSE.txt per ulteriori informazioni.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Soggetto ai termini della licenza MIT. Consulta LICENSE.txt per ulteriori informazioni.
 
 ## Contatti
 
-Link Repo 
+Link Repo
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
