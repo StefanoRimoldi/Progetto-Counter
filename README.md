@@ -16,6 +16,10 @@ Questo codice JavaScript è stato sviluppato per creare un'applicazione web inte
 
 Questo codice JavaScript può essere utilizzato come base per la creazione di un'applicazione web di gestione dei contatori e offre la flessibilità di gestire e monitorare contemporaneamente diversi contatori.
 
+## Linguaggi utilizzati:
+- HTML
+- CSS
+- JAVASCRIPT
 
 ### Realizzato con:
 
