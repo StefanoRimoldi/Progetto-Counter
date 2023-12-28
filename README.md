@@ -36,7 +36,7 @@ Questo codice JavaScript può essere utilizzato come base per la creazione di un
 
 ### Cambio Tema
 
-Quando l'utente clicca sull'icona del sole o della luna, a cui è associato l'ID "toggleNightMode", il codice aggiunge o rimuove la classe CSS "night-mode" del body dell'applicazione, provocando un cambio del tema dalla modalità scura alla modalità chiara, o viceversa.
+Quando l'utente clicca sull'icona del sole o della luna, a cui è associato l'ID "toggleNightModeButton", il codice aggiunge o rimuove la classe CSS "nightMode" del body dell'applicazione, provocando un cambio del tema dalla modalità scura alla modalità chiara, o viceversa.
 Ad ogni click, il bottone cambia l'icona per rappresentare la modalità del tema attualmente in uso. Se compare l'icona del sole significa che è attivo il tema scuro, se invece compare la luna è attivo il tema chiaro.
 L'effetto che ho ottenuto con il CSS è quello di invertire i colori del contenuto utilizzando il filtro "invert" al 100% e con “background-color: white !important” per forzare il cambio di sfondo, dal colore originario al bianco. 
 Ho utilizzato "!important" per assicurarmi che questa regola prevalga sugli altri CSS esistenti. 
