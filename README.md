@@ -8,7 +8,7 @@ Tuttavia, il mio impegno in questo progetto non si è fermato ai requisiti minim
 
 - [Descrizione progetto](#descrizione-progetto)
   - [index.js](#indexjs)
-  - [toggle.js](#togglejs)
+  - [Cambio Tema](#cambio-tema)
 - [Linguaggi utilizzati](#linguaggi-utilizzati)
 - [Link progetto](#link-progetto)
 - [Licenza](#licenza)
@@ -34,9 +34,8 @@ Questo codice JavaScript può essere utilizzato come base per la creazione di un
 <a href="https://ibb.co/K5Cx2G5"><img src="https://i.ibb.co/NFw293F/Counter.gif" alt="Counter" border="0" width="139px" height="246px"></a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### toggle.js
+### Cambio Tema
 
-toggle.js gestisce la funzionalità aggiuntiva di cambio tema all'applicazione web.
 Quando l'utente clicca sull'icona del sole o della luna, a cui è associato l'ID "toggleNightMode", il codice aggiunge o rimuove la classe CSS "night-mode" del body dell'applicazione, provocando un cambio del tema dalla modalità scura alla modalità chiara, o viceversa.
 Ad ogni click, il bottone cambia l'icona per rappresentare la modalità del tema attualmente in uso. Se compare l'icona del sole significa che è attivo il tema scuro, se invece compare la luna è attivo il tema chiaro.
 L'effetto che ho ottenuto con il CSS è quello di invertire i colori del contenuto utilizzando il filtro "invert" al 100% e con “background-color: white !important” per forzare il cambio di sfondo, dal colore originario al bianco. 
