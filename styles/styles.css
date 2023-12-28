@@ -5,64 +5,68 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position: relative;
+    box-sizing: inherit;
   }
   
-  header {
-    background-color: #191e24;
-    border-bottom: 1px solid white;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
-  
-  .custom-icon-button, #toggleNightMode {
-    background-color: transparent;
-    align-items: center;
-    border-radius: 5px;
-    height: 35px;
-    width: 35px;
-    border: none;
-    display: flex;
-  }
-  /* titolo header homepage */
-  #title-header {
-    align-items: center;
-    padding-bottom: 5px;
-  }
-  
-  /* button togglenightmode */
+  /* buttonDarkMode */
   #toggleIcon {
     background-color: transparent;
     align-items: center;
+    justify-content: right;
     height: 30px;
     width: 30px;
     border: none;
     color: black;
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    
+  }
+
+  #titleHeader {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  /* button pagina OverView */
-  .img {
+  /* buttonInfo */
+  #buttonInfo {
     stroke: white;
     width: 30px;
     height: 30px;
     align-items: center;
+    display: flex;
+    flex: 1;
+    background-color: transparent;
+    border: none;
   }
-  #counterSection,
-  .add-counter {
-    padding: 0 15px 0 15px;
+
+  #backButton {
+    stroke: white;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    background: url('https://api.iconify.design/material-symbols/arrow-back.svg?color=white') no-repeat center center / contain;
+    border: none;
   }
+
+  
   
   /* sezione titolo Counter */
-  .counter-title {
+  .counterTitle {
     height: 74px;
     width: 720px;
     max-width: 100%;
     border: 1px solid white;
+    color: white;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
     border-top-left-radius: 15px;
@@ -113,7 +117,7 @@ body {
   }
   
   /* sezione centrale Counter */
-  .center-box {
+  .centerBox {
     max-width: 100%;
     width: 720px;
     height: 240px;
@@ -139,7 +143,7 @@ body {
   }
   
   /* sezione button Counter Increment e Decrement*/
-  .button-base {
+  .buttonBase {
     max-width: 100%;
     border: none;
     height: 75px;
@@ -193,7 +197,7 @@ body {
   #addValueButton:hover,
   #resetButton:hover,
   #addCounterButton:hover,
-  #deleteButton:hover {
+  .deleteButton:hover {
     background-color: white;
     color: #1d232a;
   }
@@ -203,7 +207,7 @@ body {
   #addValueButton,
   #resetButton,
   #addCounterButton,
-  #deleteButton {
+  .deleteButton {
     background-color: transparent;
     color: #fff;
     transition: background-color 0.3s, color 0.3s;
@@ -215,7 +219,7 @@ body {
     }
   }
 
-  .button-add {
+  .buttonAdd {
     display: flex;
     height: 48px;
     max-width: 100%;
@@ -234,10 +238,6 @@ body {
     background: transparent;
   }
   
-  .hide-button {
-    display: none;
-  }
-  
   #newCounterSection {
     padding: 10px 15px;
   }
@@ -251,9 +251,29 @@ body {
     margin-top: auto;
     color: white;
   }
+
+  #newParagraph {
+    color: white;
+    line-height: 1.5;
+    max-width: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid rgba(255, 255, 255, 0.356);
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+
+  }
   
   
   /* breakpoints */
+
+  @media (max-width: 768px) {
+    #newParagraph {
+        margin: 30px 10px;
+    }
+  }
   @media only screen and (max-width: 438px) {
   
     #resetButton {
@@ -292,7 +312,7 @@ body {
   }
   
   @media only screen and (max-width: 370px) {
-    .img, #toggleIcon {
+    #buttonInfo, #toggleIcon, #backButton {
       height: 20px;
       width: 20px;
     }
@@ -350,27 +370,27 @@ body {
   }
   
   @media only screen and (max-width: 330px) {
-    .title, .button-add {
+    .title, .buttonAdd {
       font-size: 1.0em;
   
     }
   
-    #title-header {
+    #titleHeader {
       font-size: 1.20em;
     }
   }
   
-  /* ToggleMode */
-  .night-mode {
+  /* ToggleMode */ 
+  .inverted-colors {
     filter: invert(100%);
     background-color: white !important;
   }
-  
+
   #toggleNightMode {
     background-color: transparent;
     border: none;
   }
-  
+
   
   
   
