@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const header = document.createElement('header');
   
   //STILE HEADER
-  header.style.position = 'sticky';
-  header.style.top = '0';
   header.style.backgroundColor = '#191e24';
   header.style.borderBottom = '1px solid white';
   header.style.color = '#fff';
@@ -13,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
   header.style.alignItems = 'center';
   header.style.padding = '10px 20px';
   header.style.flexDirection = 'row';
-  header.style.zIndex = '100';
+  header.style.position = 'sticky';
+  header.style.top ='0';
   
   const navbarLeft = document.createElement('div');
   navbarLeft.classList.add('navbar-left');
@@ -213,6 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (counterIndex === 0) {
       deleteButton.style.display = 'none';
     }
+
     
     container.insertBefore(clonedCounterSection, newCounterSection);
   }); 
