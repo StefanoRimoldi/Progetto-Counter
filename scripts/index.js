@@ -217,6 +217,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     container.insertBefore(clonedCounterSection, newCounterSection);
   }); 
+
+  //FUNZIONAMENTO COUNTER
   
   container.addEventListener("click", function(event) {
     const clickedElement = event.target;
