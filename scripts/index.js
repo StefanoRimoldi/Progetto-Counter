@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
   header.style.flexDirection = 'row';
   header.style.position = 'sticky';
   header.style.top ='0';
+  header.style.zIndex = '100';
   
   const navbarLeft = document.createElement('div');
   navbarLeft.classList.add('navbar-left');
