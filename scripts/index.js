@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //FUNZIONAMENTO COUNTER
   let counter = 0;
   
-  incrementButton.addEventListener("click", () => {
+  /* incrementButton.addEventListener("click", () => {
     counter++;
     counterElement.textContent = counter;
   });
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
   decrementButton.addEventListener("click", () => {
     counter--;
     counterElement.textContent = counter;
-  });
+  }); */
   
   //FUNZIONAMENTO TASTO RESET
   buttonReset.addEventListener("click", () => {
@@ -140,14 +140,14 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   //FUNZIONAMENTO TASTO ADD VALUE
-  addValueButton.addEventListener("click", () => {
+  /* addValueButton.addEventListener("click", () => {
     const valueToAdd = parseInt(prompt("Inserisci il valore da aggiungere:"));
     
     if (!isNaN(valueToAdd)) {
       counter += valueToAdd;
       counterElement.textContent = counter;
     }
-  });
+  }); */
   
   //INSERIMENTO TESTO TITOLO TASTO INVIO
   document.addEventListener("keydown", function(event) {
