@@ -381,7 +381,7 @@ body {
   }
   
   /* ToggleMode */ 
-  .inverted-colors {
+  .invertedColors {
     filter: invert(100%);
     background-color: white !important;
   }
