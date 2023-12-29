@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //FUNZIONAMENTO DARKMODE
   
   toggleNightModeButton.addEventListener("click", function() {
-    document.body.classList.toggle("inverted-colors");
+    document.body.classList.toggle("invertedColors");
     
     let isNightMode = localStorage.getItem("nightMode") === "true";
     
