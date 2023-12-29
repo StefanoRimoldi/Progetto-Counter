@@ -56,6 +56,7 @@ Ho utilizzato "!important" per assicurarmi che questa regola prevalga sugli altr
 
 ## Link progetto:
 - Live Demo: https://counterstart2impact.netlify.app/
+- Github Pages: https://stefanorimoldi.github.io/Progetto-Javascript-Basics/
 - Repo GitHub: https://github.com/StefanoRimoldi/Progetto-Javascript-Basics
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
