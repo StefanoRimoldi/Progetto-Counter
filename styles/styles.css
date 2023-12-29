@@ -391,6 +391,30 @@ body {
     border: none;
   }
 
+  /*STILI BUTTON ARTICLE NEWPARAGRAPH */
+
+  .buttonarticle, .enterkey, .addValue {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 1.5em;
+    width: 1.5em;
+    padding: 0;
+}
+
+.enterkey {
+    border: none;
+    height: 1.75em;
+    width: 1.75em;
+}
+
+.addValue {
+    padding: 4px;
+    width: auto;
+    height: auto;
+}
+
   
   
   
